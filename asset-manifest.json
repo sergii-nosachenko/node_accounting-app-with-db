@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/node_accounting-app-with-db/static/css/main.1510a3cd.css",
+    "main.js": "/node_accounting-app-with-db/static/js/main.fa0cf484.js",
+    "static/media/fa-solid-900.ttf": "/node_accounting-app-with-db/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
+    "static/media/fa-brands-400.ttf": "/node_accounting-app-with-db/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
+    "static/media/fa-solid-900.woff2": "/node_accounting-app-with-db/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
+    "static/media/fa-brands-400.woff2": "/node_accounting-app-with-db/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
+    "static/media/fa-regular-400.ttf": "/node_accounting-app-with-db/static/media/fa-regular-400.abf801b7acb6705a15ad.ttf",
+    "static/media/fa-regular-400.woff2": "/node_accounting-app-with-db/static/media/fa-regular-400.639d2000c1ece92eaec8.woff2",
+    "static/media/fa-v4compatibility.ttf": "/node_accounting-app-with-db/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
+    "static/media/fa-v4compatibility.woff2": "/node_accounting-app-with-db/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
+    "index.html": "/node_accounting-app-with-db/index.html",
+    "main.1510a3cd.css.map": "/node_accounting-app-with-db/static/css/main.1510a3cd.css.map",
+    "main.fa0cf484.js.map": "/node_accounting-app-with-db/static/js/main.fa0cf484.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1510a3cd.css",
+    "static/js/main.fa0cf484.js"
+  ]
+}
