@@ -8,7 +8,7 @@ const { router: statsRouter } = require('./routes/stats');
 
 require('dotenv').config();
 
-const { HOST = 'localhost', PORT_SERVER = 5000 } = process.env;
+const { HOST = 'localhost' } = process.env;
 
 const app = express();
 
@@ -16,7 +16,9 @@ app.use(cors());
 app.use('/expenses', express.json(), expensesRouter);
 app.use('/stats', statsRouter);
 
-app.listen(PORT_SERVER, () => {
+app.listen(process.env.PORT || 5000, () => {
+  const PORT_SERVER = process.env.PORT || 5000;
+
   console.log(`
     Server is running on http://${HOST}:${PORT_SERVER}
 
