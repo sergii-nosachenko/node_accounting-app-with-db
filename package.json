@@ -2,11 +2,9 @@
   "name": "node_accounting-app-with-db",
   "version": "1.0.0",
   "description": "Node.js accounting app with PostgreSQL",
-  "main": "src/index.js",
+  "main": "server/index.js",
   "scripts": {
-    "init": "mate-scripts init",
-    "start": "concurrently \"npm run client\" \"npm run server\"",
-    "client": "cd client && npm start",
+    "start": "npm run server",
     "server": "nodemon server/index.js",
     "lint": "mate-scripts lint",
     "test:only": "mate-scripts test",
