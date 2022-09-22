@@ -1,16 +1,10 @@
 module.exports = {
-  extends: [
-    '@mate-academy/eslint-config',
-    '@mate-academy/eslint-config-react'
-  ],
+  extends: '@mate-academy/eslint-config',
   env: {
-    jest: true,
-    node: true,
-    browser: true,
-    es2021: true
+    jest: true
   },
   rules: {
     'no-proto': 0
   },
-  plugins: ['react']
+  plugins: ['jest']
 };
